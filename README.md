@@ -6,3 +6,16 @@
 
 ##工具
 [Git](https://git-scm.com/download)
+
+## 脚本
+```sql
+CREATE TABLE USER
+    
+    ID int DEFAULT PRIMARY KEY NOT NULL,
+    ACCOUNT_ID VARCHAR(100),
+    NAME VARCHAR(50),
+    TOKEN CHAR(36),
+    CREATE_TIMESTAMP BIGINT,
+    UPDATE_TIMESTAMP BIGINT,
+
+```
